@@ -44,6 +44,8 @@ dependencies:
   get: ^4.6.6
   #secret_protection
   flutter_dotenv: ^5.2.1
+  #Google Maps SDK
+  google_maps_flutter: ^2.12.3
 
 dev_dependencies:
   flutter_test:
