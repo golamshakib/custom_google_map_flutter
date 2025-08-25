@@ -4,8 +4,8 @@ import '../../../../core/common/widgets/custom_text.dart';
 import '../../../../core/utils/constants/app_sizes.dart';
 import '../../../authentication/controllers/login_controller.dart';
 
-class SplashScreen extends StatelessWidget {
-  const SplashScreen({super.key});
+class MapScreen extends StatelessWidget {
+  const MapScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class SplashScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              CustomText(text: 'This is Splash Screen'),
+              CustomText(text: 'This is Map Screen'),
             ],
           ),
         ),
