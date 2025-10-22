@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-class SplashController extends GetxController {
+class MapController extends GetxController {
   void navigateToHomeScreen() {
     Future.delayed(
       const Duration(milliseconds: 1500),
